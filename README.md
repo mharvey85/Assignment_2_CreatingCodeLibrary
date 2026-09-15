@@ -1,6 +1,7 @@
 # Assignment_2_CreatingCodeLibrary
 ECE-231 Assignment 2 - 
-Custom library creation 
+
+## Custom library creation 
 	Statistics Library contains the following array functions
 		- Sum of elements
 		- Average of elements

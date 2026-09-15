@@ -29,7 +29,7 @@ double stdDev (double arr[], double size){
 double maxArr(double arr[], double size){
 	double max = arr[0];
 	for(int i = 0; i < size; i++){
-		if(max > arr[i]){
+		if(max < arr[i]){
 			max = arr[i]; 
  		}
 	}
@@ -39,7 +39,7 @@ double maxArr(double arr[], double size){
 double minArr(double arr[], double size){
 	double min = arr[0];
 	for(int i = 0; i < size; i++){
-		if(min < arr[i]){
+		if(min > arr[i]){
 			min = arr[i];
 		}
 	}
